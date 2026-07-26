@@ -841,13 +841,13 @@ function App() {
       {/* Footer Disclaimer & Links */}
       <footer className="site-footer" id="site-footer-info">
         <div className="footer-nav-links" id="footer-links-container">
-          <a href="#" className="footer-nav-link" id="link-privacy">Privacy Policy</a>
+          <a href="/privacy" className="footer-nav-link" id="link-privacy">Privacy Policy</a>
           <span>|</span>
-          <a href="#" className="footer-nav-link" id="link-terms">Terms of Service</a>
+          <a href="/terms" className="footer-nav-link" id="link-terms">Terms of Service</a>
           <span>|</span>
-          <a href="#" className="footer-nav-link" id="link-disclaimer">Disclaimer</a>
+          <a href="/disclaimer" className="footer-nav-link" id="link-disclaimer">Disclaimer</a>
           <span>|</span>
-          <a href="#" className="footer-nav-link" id="link-contact">Contact Us</a>
+          <a href="/contact" className="footer-nav-link" id="link-contact">Contact Us</a>
         </div>
         <p className="footer-copy">
           &copy; {new Date().getFullYear()} TechSupport Pro. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
