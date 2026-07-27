@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Shield, Phone, ArrowLeft, Mail, MapPin, Clock, Send, CheckCircle, HelpCircle } from 'lucide-react';
+import SupportedBrands from './SupportedBrands.jsx';
 import './index.css';
 
 const ContactUs = () => {
@@ -224,6 +225,8 @@ const ContactUs = () => {
           </div>
         </div>
       </main>
+
+      <SupportedBrands />
 
       {/* Footer */}
       <footer className="site-footer" style={{ marginTop: 'auto' }}>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, Phone, ArrowLeft, AlertTriangle, Info, CheckCircle, HelpCircle } from 'lucide-react';
+import SupportedBrands from './SupportedBrands.jsx';
 import './index.css';
 
 const Disclaimer = () => {
@@ -77,7 +78,7 @@ const Disclaimer = () => {
           </section>
 
           <section style={{ marginBottom: '32px' }}>
-            <h2 style={{ fontSize: '1.4rem', color: 'var(--primary-cyan)', marginBottom: '12px' }}>
+            <h2 style={{ fontSize: '1.4rem', color: 'var(--primary-cyan)', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '10px' }}>
               3. Generic Configuration Overviews
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
@@ -95,6 +96,8 @@ const Disclaimer = () => {
           </section>
         </div>
       </main>
+
+      <SupportedBrands />
 
       {/* Footer */}
       <footer className="site-footer" style={{ marginTop: 'auto' }}>

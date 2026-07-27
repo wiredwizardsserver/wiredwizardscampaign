@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, Phone, ArrowLeft, CheckCircle, AlertTriangle, FileText, HelpCircle } from 'lucide-react';
+import SupportedBrands from './SupportedBrands.jsx';
 import './index.css';
 
 const TermsOfService = () => {
@@ -115,6 +116,8 @@ const TermsOfService = () => {
           </section>
         </div>
       </main>
+
+      <SupportedBrands />
 
       {/* Footer */}
       <footer className="site-footer" style={{ marginTop: 'auto' }}>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+  import React, { useState, useEffect, useRef } from 'react';
 import { 
   Phone, 
   Shield, 
@@ -14,6 +14,7 @@ import {
   CheckCircle,
   HelpCircle
 } from 'lucide-react';
+import SupportedBrands from './SupportedBrands.jsx';
 
 const DEFAULT_REVIEWS = [
   {
@@ -837,6 +838,9 @@ function App() {
           </div>
         </div>
       )}
+
+      {/* Supported Brands Section */}
+      <SupportedBrands />
 
       {/* Footer Disclaimer & Links */}
       <footer className="site-footer" id="site-footer-info">

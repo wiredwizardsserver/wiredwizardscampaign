@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, Phone, ArrowLeft, Lock, Eye, FileText, CheckCircle } from 'lucide-react';
+import SupportedBrands from './SupportedBrands.jsx';
 import './index.css';
 
 const PrivacyPolicy = () => {
@@ -108,6 +109,8 @@ const PrivacyPolicy = () => {
           </section>
         </div>
       </main>
+
+      <SupportedBrands />
 
       {/* Footer */}
       <footer className="site-footer" style={{ marginTop: 'auto' }}>
