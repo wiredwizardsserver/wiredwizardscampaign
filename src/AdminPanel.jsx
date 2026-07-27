@@ -146,6 +146,22 @@ const AdminPanel = () => {
     }
   };
 
+  const handleSeedReviews = async () => {
+    if (!window.confirm('Are you sure you want to seed genuine Wired Wizards reviews? This will reset the current reviews.')) return;
+    try {
+      const res = await fetch(`${API_URL}/api/seed-reviews`, { method: 'POST' });
+      if (res.ok) {
+        const data = await res.json();
+        alert(data.message || 'Seeded reviews successfully!');
+        fetchReviews();
+      } else {
+        alert('Failed to seed reviews');
+      }
+    } catch (err) {
+      console.error('Error seeding reviews:', err);
+    }
+  };
+
   const handleDeleteTicket = async (id) => {
     if (!window.confirm('Are you sure you want to delete this support request?')) return;
     try {
@@ -364,7 +380,12 @@ const AdminPanel = () => {
 
           {/* Right Column: List */}
           <div className="admin-card">
-            <h2>Manage Existing Reviews</h2>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
+              <h2 style={{ margin: 0 }}>Manage Existing Reviews</h2>
+              <button onClick={handleSeedReviews} style={{ background: '#0ea5e9', color: '#fff', border: 'none', padding: '6px 12px', borderRadius: '6px', fontSize: '0.85rem', fontWeight: '600', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                🌱 Seed Genuine Reviews
+              </button>
+            </div>
             {loading ? (
               <p>Loading reviews...</p>
             ) : (
