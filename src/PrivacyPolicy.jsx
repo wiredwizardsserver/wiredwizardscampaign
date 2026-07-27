@@ -12,9 +12,9 @@ const PrivacyPolicy = () => {
           Expert IT consultations & Support - Available 24/7
         </div>
         <div className="top-bar-actions">
-          <a href="tel:+18889081218" className="phone-outline-btn">
+          <a href="tel:+18555344116" className="phone-outline-btn">
             <Phone size={14} />
-            <span>+1 (888) 908-1218</span>
+            <span>+1 (855) 534-4116</span>
           </a>
         </div>
       </div>
@@ -104,7 +104,7 @@ const PrivacyPolicy = () => {
               5. Contact Us Regarding Privacy
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
-              If you have any questions, concerns, or requests regarding this Privacy Policy or our data handling practices, please contact our compliance department at <strong>wiredwizards.server@gmail.com</strong> or call our toll-free assistance line at <strong>+1 (888) 908-1218</strong>.
+              If you have any questions, concerns, or requests regarding this Privacy Policy or our data handling practices, please contact our compliance department at <strong>wiredwizards.server@gmail.com</strong> or call our toll-free assistance line at <strong>+1 (855) 534-4116</strong>.
             </p>
           </section>
         </div>

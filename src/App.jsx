@@ -201,19 +201,19 @@ function App() {
         reply = "I see your printer is offline. Please make sure the printer is turned on and connected to the same Wi-Fi network as your computer. If the problem persists, please call our toll-free line to speak with a technician immediately.";
         nextOpts = ['Call Support', 'Main Menu'];
       } else if (opt === 'New printer Setup') {
-        reply = "I can help with that! Type your printer model in the search bar above to see the guide, or call our toll-free line at +1 (888) 908-1218 to have a technician set it up for you.";
+        reply = "I can help with that! Type your printer model in the search bar above to see the guide, or call our toll-free line at +1 (855) 534-4116 to have a technician set it up for you.";
         nextOpts = ['Call Support', 'Main Menu'];
       } else if (opt === 'Drivers Not Install') {
         reply = "Driver issues are very common. Let's get the correct driver package. Please search your specific model in the search bar on our page, or dial our toll-free support line.";
         nextOpts = ['Call Support', 'Main Menu'];
       } else if (opt === 'Other issue') {
-        reply = "Please describe your issue or connect with our support team by calling +1 (888) 908-1218 for immediate help.";
+        reply = "Please describe your issue or connect with our support team by calling +1 (855) 534-4116 for immediate help.";
         nextOpts = ['Main Menu'];
       } else if (opt === 'Main Menu') {
         reply = "How may I help you today?";
         nextOpts = ['Printer Offline', 'New printer Setup', 'Drivers Not Install', 'Other issue'];
       } else if (opt === 'Call Support') {
-        reply = "Connecting you... For immediate assistance, please call our toll-free number +1 (888) 908-1218 to speak directly with an independent IT technician.";
+        reply = "Connecting you... For immediate assistance, please call our toll-free number +1 (855) 534-4116 to speak directly with an independent IT technician.";
         nextOpts = ['Main Menu'];
       }
 
@@ -238,7 +238,7 @@ function App() {
     setChatOptions([]);
 
     setTimeout(() => {
-      const reply = `Thank you for the details. To fix your issue with "${userMsg}" immediately, please dial our toll-free line +1 (888) 908-1218 to speak directly with Patrick or other available IT technicians.`;
+      const reply = `Thank you for the details. To fix your issue with "${userMsg}" immediately, please dial our toll-free line +1 (855) 534-4116 to speak directly with Patrick or other available IT technicians.`;
       setChatMessages(prev => [
         ...prev,
         { id: Date.now() + 1, text: reply, sender: 'bot' }
@@ -343,9 +343,9 @@ function App() {
           Expert IT consultations & Support - Available 24/7
         </div>
         <div className="top-bar-actions">
-          <a href="tel:+18889081218" className="phone-outline-btn" id="header-phone-btn">
+          <a href="tel:+18555344116" className="phone-outline-btn" id="header-phone-btn">
             <Phone size={14} />
-            <span>+1 (888) 908-1218</span>
+            <span>+1 (855) 534-4116</span>
           </a>
         </div>
       </div>
@@ -363,9 +363,9 @@ function App() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
           <a href="#customer-reviews-section" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.95rem', fontWeight: '500', transition: 'color 0.2s' }}>Verified Reviews</a>
           <a href="/contact" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.95rem', fontWeight: '500', transition: 'color 0.2s' }}>Contact Support</a>
-          <a href="tel:+18889081218" className="phone-outline-btn" style={{ padding: '8px 16px', fontSize: '0.85rem' }}>
+          <a href="tel:+18555344116" className="phone-outline-btn" style={{ padding: '8px 16px', fontSize: '0.85rem' }}>
             <Phone size={14} />
-            <span>Live Help: +1 (888) 908-1218</span>
+            <span>Live Help: +1 (855) 534-4116</span>
           </a>
         </div>
       </nav>
@@ -383,9 +383,9 @@ function App() {
           Expert help for printer setup, drivers, network config, and device troubleshooting — solved by a real technician.
         </p>
 
-        <a href="tel:+18889081218" className="cta-button" id="hero-cta-btn">
+        <a href="tel:+18555344116" className="cta-button" id="hero-cta-btn">
           <Phone size={20} fill="currentColor" />
-          <span>Call +1 (888) 908-1218</span>
+          <span>Call +1 (855) 534-4116</span>
         </a>
 
         <div className="trust-badges" id="trust-badges-container">
@@ -567,9 +567,9 @@ function App() {
                   </p>
                   <div className="sidebar-num">
                     <span>Toll-Free Support</span>
-                    <a href="tel:+18889081218">+1 (888) 908-1218</a>
+                    <a href="tel:+18555344116">+1 (855) 534-4116</a>
                   </div>
-                  <a href="tel:+18889081218" className="sidebar-call">Call Now</a>
+                  <a href="tel:+18555344116" className="sidebar-call">Call Now</a>
                   <div className="sidebar-free">Free Support</div>
 
                   <div className="driver-alert-box">
@@ -577,9 +577,9 @@ function App() {
                     <div className="alert-text">
                       Need Immediate Assistance? Our Printer Experts Are Available 24/7.
                     </div>
-                    <a href="tel:+18889081218">
+                    <a href="tel:+18555344116">
                       <Phone size={14} style={{ marginRight: '6px' }} />
-                      <span>CALL NOW: +1 (888) 908-1218</span>
+                      <span>CALL NOW: +1 (855) 534-4116</span>
                     </a>
                   </div>
                 </div>
@@ -687,9 +687,9 @@ function App() {
           Call our toll-free line — a real technician answers in under 2 minutes. No robots. No confusing menus.
         </p>
 
-        <a href="tel:+18889081218" className="cta-footer-btn" id="footer-phone-cta-btn">
+        <a href="tel:+18555344116" className="cta-footer-btn" id="footer-phone-cta-btn">
           <Phone size={18} fill="currentColor" />
-          <span>+1 (888) 908-1218 — Call Free</span>
+          <span>+1 (855) 534-4116 — Call Free</span>
         </a>
 
         <div className="footer-features-list" id="footer-features">

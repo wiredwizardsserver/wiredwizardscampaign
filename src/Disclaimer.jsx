@@ -12,9 +12,9 @@ const Disclaimer = () => {
           Expert IT consultations & Support - Available 24/7
         </div>
         <div className="top-bar-actions">
-          <a href="tel:+18889081218" className="phone-outline-btn">
+          <a href="tel:+18555344116" className="phone-outline-btn">
             <Phone size={14} />
-            <span>+1 (888) 908-1218</span>
+            <span>+1 (855) 534-4116</span>
           </a>
         </div>
       </div>
@@ -91,7 +91,7 @@ const Disclaimer = () => {
               4. Questions or Verification
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
-              If you have questions concerning our independent status or wish to speak with an IT coordinator before proceeding with a service consultation, please contact our support team at <strong>+1 (888) 908-1218</strong> or email <strong>wiredwizards.server@gmail.com</strong>.
+              If you have questions concerning our independent status or wish to speak with an IT coordinator before proceeding with a service consultation, please contact our support team at <strong>+1 (855) 534-4116</strong> or email <strong>wiredwizards.server@gmail.com</strong>.
             </p>
           </section>
         </div>

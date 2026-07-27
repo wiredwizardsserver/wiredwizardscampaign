@@ -12,9 +12,9 @@ const TermsOfService = () => {
           Expert IT consultations & Support - Available 24/7
         </div>
         <div className="top-bar-actions">
-          <a href="tel:+18889081218" className="phone-outline-btn">
+          <a href="tel:+18555344116" className="phone-outline-btn">
             <Phone size={14} />
-            <span>+1 (888) 908-1218</span>
+            <span>+1 (855) 534-4116</span>
           </a>
         </div>
       </div>
@@ -111,7 +111,7 @@ const TermsOfService = () => {
               6. Governing Law & Contact
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
-              These Terms of Service shall be governed by the laws of the jurisdiction in which our corporate office operates, without regard to conflict of law principles. For questions regarding these terms, please contact <strong>wiredwizards.server@gmail.com</strong> or call <strong>+1 (888) 908-1218</strong>.
+              These Terms of Service shall be governed by the laws of the jurisdiction in which our corporate office operates, without regard to conflict of law principles. For questions regarding these terms, please contact <strong>wiredwizards.server@gmail.com</strong> or call <strong>+1 (855) 534-4116</strong>.
             </p>
           </section>
         </div>
