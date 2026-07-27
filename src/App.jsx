@@ -351,22 +351,13 @@ function App() {
       </div>
 
       {/* Brand Navigation Bar */}
-      <nav style={{ padding: '16px 5%', borderBottom: '1px solid var(--border-light)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: 'var(--bg-navy-dark)' }}>
-        <a href="/" style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none', color: 'white' }}>
-          <div style={{ background: 'var(--primary-cyan)', color: 'var(--bg-deep)', padding: '6px', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <Shield size={22} />
-          </div>
-          <span style={{ fontWeight: '800', fontSize: '1.35rem', fontFamily: 'var(--font-heading)', letterSpacing: '0.02em', background: 'linear-gradient(90deg, #ffffff 0%, var(--primary-cyan) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-            Wired Wizards
-          </span>
+      <nav style={{ padding: '14px 5%', borderBottom: '1px solid var(--border-light)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: 'var(--bg-navy-dark)' }}>
+        <a href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+          <img src="/logo.png" alt="Wired Wizards LLC Logo" style={{ height: '80px', objectFit: 'contain' }} />
         </a>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
           <a href="#customer-reviews-section" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.95rem', fontWeight: '500', transition: 'color 0.2s' }}>Verified Reviews</a>
           <a href="/contact" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.95rem', fontWeight: '500', transition: 'color 0.2s' }}>Contact Support</a>
-          <a href="tel:+18555344116" className="phone-outline-btn" style={{ padding: '8px 16px', fontSize: '0.85rem' }}>
-            <Phone size={14} />
-            <span>Live Help: +1 (855) 534-4116</span>
-          </a>
         </div>
       </nav>
 
@@ -864,6 +855,9 @@ function App() {
 
       {/* Footer Disclaimer & Links */}
       <footer className="site-footer" id="site-footer-info">
+        <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+          <img src="/logo.png" alt="Wired Wizards LLC Logo" style={{ height: '85px', objectFit: 'contain', opacity: 0.95 }} />
+        </div>
         <div className="footer-nav-links" id="footer-links-container">
           <a href="/privacy" className="footer-nav-link" id="link-privacy">Privacy Policy</a>
           <span>|</span>

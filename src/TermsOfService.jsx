@@ -19,16 +19,14 @@ const TermsOfService = () => {
         </div>
       </div>
 
-      {/* Navigation Header */}
-      <header style={{ padding: '20px 5%', borderBottom: '1px solid var(--border-light)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: 'var(--bg-navy-dark)' }}>
+      <header style={{ padding: '12px 5%', borderBottom: '1px solid var(--border-light)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: 'var(--bg-navy-dark)' }}>
         <a href="/" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--primary-cyan)', fontWeight: '600', fontSize: '0.95rem' }}>
           <ArrowLeft size={18} />
           <span>Back to Home</span>
         </a>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <Shield className="tick-icon" size={20} />
-          <span style={{ fontWeight: '700', fontSize: '1.2rem', fontFamily: 'var(--font-heading)' }}>Wired Wizards</span>
-        </div>
+        <a href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+          <img src="/logo.png" alt="Wired Wizards LLC Logo" style={{ height: '75px', objectFit: 'contain' }} />
+        </a>
       </header>
 
       {/* Main Content */}
