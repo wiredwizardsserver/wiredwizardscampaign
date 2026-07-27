@@ -27,7 +27,7 @@ const TermsOfService = () => {
         </a>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <Shield className="tick-icon" size={20} />
-          <span style={{ fontWeight: '700', fontSize: '1.2rem', fontFamily: 'var(--font-heading)' }}>TechSupport Pro</span>
+          <span style={{ fontWeight: '700', fontSize: '1.2rem', fontFamily: 'var(--font-heading)' }}>Wired Wizards</span>
         </div>
       </header>
 
@@ -48,7 +48,7 @@ const TermsOfService = () => {
               1. Acceptance of Terms
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
-              By accessing TechSupport Pro's website, using our online diagnostic tools, or engaging our technicians via phone or remote assistance, you agree to be bound by these Terms of Service. If you do not agree with any provision of these terms, please discontinue use of our services immediately.
+              By accessing Wired Wizards's website, using our online diagnostic tools, or engaging our technicians via phone or remote assistance, you agree to be bound by these Terms of Service. If you do not agree with any provision of these terms, please discontinue use of our services immediately.
             </p>
           </section>
 
@@ -58,10 +58,10 @@ const TermsOfService = () => {
               2. Independent Service Provider Status
             </h2>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '12px' }}>
-              <strong>TechSupport Pro is an independent third-party IT technical support and computer/peripheral troubleshooting resource.</strong> We are not directly affiliated, associated, authorized, endorsed by, or in any way officially connected with hardware or software manufacturers (such as HP, Canon, Epson, Brother, Dell, Microsoft, or Apple) unless explicitly stated.
+              <strong>Wired Wizards is an independent third-party IT technical support and computer/peripheral troubleshooting resource.</strong> We are not directly affiliated, associated, authorized, endorsed by, or in any way officially connected with hardware or software manufacturers (such as HP, Canon, Epson, Brother, Dell, Microsoft, or Apple) unless explicitly stated.
             </p>
             <p style={{ color: 'var(--text-secondary)' }}>
-              Services offered by TechSupport Pro may also be available for free or under warranty directly from the brand manufacturer. By utilizing our paid independent consultations or remote setups, you acknowledge that you have chosen our independent technical expertise for immediate, comprehensive assistance.
+              Services offered by Wired Wizards may also be available for free or under warranty directly from the brand manufacturer. By utilizing our paid independent consultations or remote setups, you acknowledge that you have chosen our independent technical expertise for immediate, comprehensive assistance.
             </p>
           </section>
 
@@ -90,7 +90,7 @@ const TermsOfService = () => {
               4. Billing, Fees & Refund Guarantee
             </h2>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '12px' }}>
-              TechSupport Pro provides upfront pricing before initiating paid remote support sessions. We strive for 100% customer satisfaction:
+              Wired Wizards provides upfront pricing before initiating paid remote support sessions. We strive for 100% customer satisfaction:
             </p>
             <p style={{ color: 'var(--text-secondary)' }}>
               If our technicians are unable to resolve or diagnose your reported technical issue during the initial consultation session, you are eligible for a full refund under our satisfaction guarantee. Refund requests must be submitted within 30 days of service completion.
@@ -98,11 +98,11 @@ const TermsOfService = () => {
           </section>
 
           <section style={{ marginBottom: '32px' }}>
-            <h2 style={{ fontSize: '1.4rem', color: 'var(--primary-cyan)', marginBottom: '12px' }}>
+            <h2 style={{ fontSize: '1.4rem', color: 'var(--primary-cyan)', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '10px' }}>
               5. Limitation of Liability
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
-              To the fullest extent permitted by applicable law, TechSupport Pro shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or business interruption, arising out of or related to our remote troubleshooting services, even if advised of the possibility of such damages.
+              To the fullest extent permitted by applicable law, Wired Wizards shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or business interruption, arising out of or related to our remote troubleshooting services, even if advised of the possibility of such damages.
             </p>
           </section>
 
@@ -111,7 +111,7 @@ const TermsOfService = () => {
               6. Governing Law & Contact
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
-              These Terms of Service shall be governed by the laws of the jurisdiction in which our corporate office operates, without regard to conflict of law principles. For questions regarding these terms, please contact <strong>support@techsupportpro.com</strong> or call <strong>+1 (888) 908-1218</strong>.
+              These Terms of Service shall be governed by the laws of the jurisdiction in which our corporate office operates, without regard to conflict of law principles. For questions regarding these terms, please contact <strong>wiredwizards.server@gmail.com</strong> or call <strong>+1 (888) 908-1218</strong>.
             </p>
           </section>
         </div>
@@ -131,7 +131,7 @@ const TermsOfService = () => {
           <a href="/contact" className="footer-nav-link">Contact Us</a>
         </div>
         <p className="footer-copy">
-          &copy; {new Date().getFullYear()} TechSupport Pro. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
+          &copy; {new Date().getFullYear()} Wired Wizards. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
         </p>
       </footer>
     </div>

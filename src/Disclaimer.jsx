@@ -27,7 +27,7 @@ const Disclaimer = () => {
         </a>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <Shield className="tick-icon" size={20} />
-          <span style={{ fontWeight: '700', fontSize: '1.2rem', fontFamily: 'var(--font-heading)' }}>TechSupport Pro</span>
+          <span style={{ fontWeight: '700', fontSize: '1.2rem', fontFamily: 'var(--font-heading)' }}>Wired Wizards</span>
         </div>
       </header>
 
@@ -50,7 +50,7 @@ const Disclaimer = () => {
               Independent Service Provider Notice
             </h3>
             <p style={{ color: '#ffffff', fontSize: '0.95rem', margin: 0, lineHeight: '1.6' }}>
-              <strong>TechSupport Pro is an independent technical support resource and service provider.</strong> We are not directly affiliated, associated, authorized, endorsed by, or in any way officially connected with any third-party hardware or software manufacturers (such as HP, Canon, Epson, Brother, Dell, Microsoft, Apple, or Cisco) unless explicitly specified in writing.
+              <strong>Wired Wizards is an independent technical support resource and service provider.</strong> We are not directly affiliated, associated, authorized, endorsed by, or in any way officially connected with any third-party hardware or software manufacturers (such as HP, Canon, Epson, Brother, Dell, Microsoft, Apple, or Cisco) unless explicitly specified in writing.
             </p>
           </div>
 
@@ -73,7 +73,7 @@ const Disclaimer = () => {
               We wish to inform all visitors and prospective clients that technical support, driver downloads, device documentation, and warranty services may be available free of charge directly from the original manufacturer's official website or customer support channels.
             </p>
             <p style={{ color: 'var(--text-secondary)' }}>
-              By choosing TechSupport Pro, you elect to hire independent IT professionals for immediate on-demand assistance, customized remote troubleshooting, and multi-device network configuration without waiting for manufacturer queue times.
+              By choosing Wired Wizards, you elect to hire independent IT professionals for immediate on-demand assistance, customized remote troubleshooting, and multi-device network configuration without waiting for manufacturer queue times.
             </p>
           </section>
 
@@ -82,7 +82,7 @@ const Disclaimer = () => {
               3. Generic Configuration Overviews
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
-              The printer setup steps, Wi-Fi connectivity articles, and troubleshooting overviews provided in our search portal and knowledge base are intended as general technical guidance. While our technicians strive to keep all diagnostic guides accurate and current, specific hardware models and operating system updates may alter installation steps. TechSupport Pro assumes no liability for errors or omissions in generic informational guides.
+              The printer setup steps, Wi-Fi connectivity articles, and troubleshooting overviews provided in our search portal and knowledge base are intended as general technical guidance. While our technicians strive to keep all diagnostic guides accurate and current, specific hardware models and operating system updates may alter installation steps. Wired Wizards assumes no liability for errors or omissions in generic informational guides.
             </p>
           </section>
 
@@ -91,7 +91,7 @@ const Disclaimer = () => {
               4. Questions or Verification
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
-              If you have questions concerning our independent status or wish to speak with an IT coordinator before proceeding with a service consultation, please contact our support team at <strong>+1 (888) 908-1218</strong> or email <strong>support@techsupportpro.com</strong>.
+              If you have questions concerning our independent status or wish to speak with an IT coordinator before proceeding with a service consultation, please contact our support team at <strong>+1 (888) 908-1218</strong> or email <strong>wiredwizards.server@gmail.com</strong>.
             </p>
           </section>
         </div>
@@ -111,7 +111,7 @@ const Disclaimer = () => {
           <a href="/contact" className="footer-nav-link">Contact Us</a>
         </div>
         <p className="footer-copy">
-          &copy; {new Date().getFullYear()} TechSupport Pro. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
+          &copy; {new Date().getFullYear()} Wired Wizards. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
         </p>
       </footer>
     </div>

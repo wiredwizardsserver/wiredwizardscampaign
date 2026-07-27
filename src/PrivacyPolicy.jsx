@@ -27,7 +27,7 @@ const PrivacyPolicy = () => {
         </a>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <Shield className="tick-icon" size={20} />
-          <span style={{ fontWeight: '700', fontSize: '1.2rem', fontFamily: 'var(--font-heading)' }}>TechSupport Pro</span>
+          <span style={{ fontWeight: '700', fontSize: '1.2rem', fontFamily: 'var(--font-heading)' }}>Wired Wizards</span>
         </div>
       </header>
 
@@ -48,7 +48,7 @@ const PrivacyPolicy = () => {
               1. Information We Collect
             </h2>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '12px' }}>
-              When you engage with TechSupport Pro for remote technical assistance, diagnostics, or peripheral setup, we may collect certain necessary information to deliver our services effectively:
+              When you engage with Wired Wizards for remote technical assistance, diagnostics, or peripheral setup, we may collect certain necessary information to deliver our services effectively:
             </p>
             <ul style={{ listStyle: 'none', paddingLeft: '0', color: 'var(--text-secondary)' }}>
               <li style={{ marginBottom: '8px', display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
@@ -104,7 +104,7 @@ const PrivacyPolicy = () => {
               5. Contact Us Regarding Privacy
             </h2>
             <p style={{ color: 'var(--text-secondary)' }}>
-              If you have any questions, concerns, or requests regarding this Privacy Policy or our data handling practices, please contact our compliance department at <strong>support@techsupportpro.com</strong> or call our toll-free assistance line at <strong>+1 (888) 908-1218</strong>.
+              If you have any questions, concerns, or requests regarding this Privacy Policy or our data handling practices, please contact our compliance department at <strong>wiredwizards.server@gmail.com</strong> or call our toll-free assistance line at <strong>+1 (888) 908-1218</strong>.
             </p>
           </section>
         </div>
@@ -124,7 +124,7 @@ const PrivacyPolicy = () => {
           <a href="/contact" className="footer-nav-link">Contact Us</a>
         </div>
         <p className="footer-copy">
-          &copy; {new Date().getFullYear()} TechSupport Pro. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
+          &copy; {new Date().getFullYear()} Wired Wizards. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
         </p>
       </footer>
     </div>

@@ -23,7 +23,7 @@ const DEFAULT_REVIEWS = [
     name: 'David M.',
     location: 'Miami, FL',
     service: 'Desktop Support',
-    text: '"Outstanding service. My desktop was taking forever to load applications. After the remote session, everything became noticeably faster."'
+    text: '"I was struggling with my desktop lagging and driver conflicts after a Windows update. I called Wired Wizards and a live technician picked up in under a minute. They logged in remotely, fixed the corrupted driver stack, and optimized my startup. Incredible service!"'
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const DEFAULT_REVIEWS = [
     name: 'Lisa H.',
     location: 'Houston, TX',
     service: 'Wireless Printer Setup',
-    text: '"My wireless printer stopped communicating with my computer after a router update. The technician quickly reconfigured everything and solved the issue."'
+    text: '"My HP printer completely dropped off my Wi-Fi after I replaced my router. I tried fixing it myself for hours. The Wired Wizards technician reconfigured the IP address and connected all three of our home office laptops remotely in less than 20 minutes."'
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const DEFAULT_REVIEWS = [
     name: 'Mark S.',
     location: 'Atlanta, GA',
     service: 'Slow Computer Optimization',
-    text: '"I thought I needed a new computer because of how slow it was. Sky Techiez cleaned up the system and restored the performance completely."'
+    text: '"I honestly thought my computer was dying because of how slow it had gotten. Wired Wizards ran a deep system diagnostic, cleared out background malware, and restored everything to peak performance. Saved me from buying a new machine!"'
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const DEFAULT_REVIEWS = [
     name: 'John D.',
     location: 'New York, NY',
     service: 'Network Peripherals Setup',
-    text: '"Configuring my network peripherals was proving difficult after shifting my router setup. The technician resolved it in under 15 minutes over the phone."'
+    text: '"Configuring my Canon OfficeJet scanner for network folder sharing was giving me constant error codes. The support engineer at Wired Wizards knew the exact fix immediately. Professional, patient, and worth every penny."'
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const DEFAULT_REVIEWS = [
     name: 'Sarah M.',
     location: 'Chicago, IL',
     service: 'Driver Configuration',
-    text: '"Excellent customer onboarding workflow. The step-by-step documentation was straightforward, and the phone agent helped finalize the driver stack profile."'
+    text: '"As a small business owner, having our office printer go offline stops our entire workflow. Wired Wizards guided me through their remote onboarding and had our network print server back online without losing any print jobs."'
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const DEFAULT_REVIEWS = [
     name: 'Robert K.',
     location: 'Austin, TX',
     service: 'System Optimization',
-    text: '"My computer was lagging significantly during application launches. The cleanup checklist optimization made a noticeable difference."'
+    text: '"We needed a secure dual-band Wi-Fi setup with custom firewall rules for our home office. The Wired Wizards team explained everything in plain English without confusing tech jargon and secured our entire home network."'
   },
   {
     id: 7,
@@ -71,7 +71,7 @@ const DEFAULT_REVIEWS = [
     name: 'Emily W.',
     location: 'Seattle, WA',
     service: 'Smart Home Device Setup',
-    text: '"Setting up my home network smart hub was a nightmare until I called. The technician patiently walked me through every connection and it works perfectly."'
+    text: '"My Brother multi-function printer kept saying \'Offline\' even though the Wi-Fi light was green. Wired Wizards fixed the print spooler service and set up a static IP so it never disconnects again. Highly recommended!"'
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ const DEFAULT_REVIEWS = [
     name: 'James L.',
     location: 'Boston, MA',
     service: 'Secure Wi-Fi Configuration',
-    text: '"I needed help setting up a secure network for my home office. They configured my dual-band router and set up firewall rules in no time."'
+    text: '"What impressed me most about Wired Wizards was how fast they answered the phone. No robots or endless menu options—just a knowledgeable technician who fixed my Dell laptop connectivity issues right on the spot."'
   }
 ];
 
@@ -350,6 +350,26 @@ function App() {
         </div>
       </div>
 
+      {/* Brand Navigation Bar */}
+      <nav style={{ padding: '16px 5%', borderBottom: '1px solid var(--border-light)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: 'var(--bg-navy-dark)' }}>
+        <a href="/" style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none', color: 'white' }}>
+          <div style={{ background: 'var(--primary-cyan)', color: 'var(--bg-deep)', padding: '6px', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Shield size={22} />
+          </div>
+          <span style={{ fontWeight: '800', fontSize: '1.35rem', fontFamily: 'var(--font-heading)', letterSpacing: '0.02em', background: 'linear-gradient(90deg, #ffffff 0%, var(--primary-cyan) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+            Wired Wizards
+          </span>
+        </a>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+          <a href="#customer-reviews-section" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.95rem', fontWeight: '500', transition: 'color 0.2s' }}>Verified Reviews</a>
+          <a href="/contact" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.95rem', fontWeight: '500', transition: 'color 0.2s' }}>Contact Support</a>
+          <a href="tel:+18889081218" className="phone-outline-btn" style={{ padding: '8px 16px', fontSize: '0.85rem' }}>
+            <Phone size={14} />
+            <span>Live Help: +1 (888) 908-1218</span>
+          </a>
+        </div>
+      </nav>
+
       {/* Main Hero Banner */}
       <header className="hero-section" id="main-hero">
         <div className="live-badge" id="live-support-badge">
@@ -572,10 +592,10 @@ function App() {
       {/* Testimonials Carousel Section */}
       <section className="reviews-section" id="customer-reviews-section">
         <div className="reviews-header">
-          <span className="reviews-badge">Reviews</span>
-          <h2 className="reviews-title">What Our Customers Say</h2>
+          <span className="reviews-badge">Verified Testimonials</span>
+          <h2 className="reviews-title">Why Customers Trust Wired Wizards</h2>
           <p className="reviews-subtitle">
-            Real people, real problems solved. Here's what they had to say after calling us.
+            Real people, real IT and printer problems solved. Here is what our verified clients say after working with Wired Wizards.
           </p>
         </div>
 
@@ -854,7 +874,7 @@ function App() {
           <a href="/contact" className="footer-nav-link" id="link-contact">Contact Us</a>
         </div>
         <p className="footer-copy">
-          &copy; {new Date().getFullYear()} TechSupport Pro. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
+          &copy; {new Date().getFullYear()} Wired Wizards. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
         </p>
       </footer>
     </div>

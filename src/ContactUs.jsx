@@ -49,7 +49,7 @@ const ContactUs = () => {
         </a>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <Shield className="tick-icon" size={20} />
-          <span style={{ fontWeight: '700', fontSize: '1.2rem', fontFamily: 'var(--font-heading)' }}>TechSupport Pro</span>
+          <span style={{ fontWeight: '700', fontSize: '1.2rem', fontFamily: 'var(--font-heading)' }}>Wired Wizards</span>
         </div>
       </header>
 
@@ -97,7 +97,7 @@ const ContactUs = () => {
                   <Mail size={18} color="var(--text-muted)" style={{ marginTop: '3px' }} />
                   <div>
                     <strong style={{ color: 'white', display: 'block' }}>Email Assistance</strong>
-                    <span>support@techsupportpro.com</span>
+                    <span>wiredwizards.server@gmail.com</span>
                   </div>
                 </div>
 
@@ -240,7 +240,7 @@ const ContactUs = () => {
           <a href="/contact" className="footer-nav-link" style={{ color: 'white' }}>Contact Us</a>
         </div>
         <p className="footer-copy">
-          &copy; {new Date().getFullYear()} TechSupport Pro. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
+          &copy; {new Date().getFullYear()} Wired Wizards. We are an independent technical resource providing generic configuration overviews. All product names, logos, and brands are property of their respective owners.
         </p>
       </footer>
     </div>
